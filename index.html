@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO - DO - LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TASK LIST,2022</h1>
+        
+    </header>
+    <div class="input">
+        <input type="text" placeholder="Enter the task" class="task-input" id="task-input">
+        <input type="date"class="task-date" id="task-date">
+        <p onclick="addElement()">Add the task</p>
+        <button onclick="deleteitems()">Delete selected</button>
+    </div>
+
+    <div class="task-list">
+         <ul id="add-task">
+             
+         </ul>
+    </div>
+   
+ 
+    <script src="script.js"></script>
+</body>
+</html>

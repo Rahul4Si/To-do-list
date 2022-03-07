@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    font-size: 62.5%;
+}
+header{
+    text-align: center;
+    background-image: url("pexels-del-adams-2594992.jpg") ;
+    height: 50vh;
+    background-size: cover;
+    top: 0;
+}
+header h1{
+    font-size: 3rem;
+    color: #fff;
+    padding-top:5rem ;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 1rem;
+}
+.task-input{
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    font-weight: 800;
+    height: 1.5rem;
+    width: 30rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: .2rem solid black;
+    margin: 1rem;
+    outline: none;
+}
+.task-date{
+    background-color:white ;
+    opacity: .5;
+    font-weight: 900;
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    border: .2rem solid black;
+    margin: 1rem;
+    outline: none;
+}
+.input p{
+    color: #000;
+    background-color: #fff ;
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2%;
+    cursor: pointer;
+    border-radius: 1rem;
+    width: 11rem;
+    outline: none;
+    padding: .5rem ;
+    text-align: center;
+}
+.input p:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    height: 2rem;
+    padding-bottom: 2rem;
+}
+.input button{
+    color: #000;
+    border: none;
+    background-color: #fff ;
+    opacity: 0.5;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: .2rem;
+    cursor: pointer;
+    margin-left: 2%;
+    border-radius: 1rem;
+    width: 13rem;
+    outline: none;
+    padding: .5rem ;
+    text-align: center;
+}
+
+.input button:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    height: 2rem;
+    padding-bottom: 2rem;
+}
+ul {
+    margin-top: 4rem;
+    display: a;
+}
+.task-list{
+    width: 70%;
+    text-align: left;
+    color: white;
+    font-size: 1.5rem;
+    padding-left:  auto;
+    width: 100%;
+}
+ul{
+    margin: 1rem auto;
+    width: 70%;
+    list-style-type: none;
+}
